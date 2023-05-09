@@ -183,3 +183,24 @@ nav{
     justify-content: space-between;
    
 }
+
+/*footer*/
+.rodape {
+    border-top: 4px solid var(--color-light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape-titulo {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.rodape-imagem {
+    height: 80px;
+    width: 20px;
+    padding: 10px;
+    gap: 20px;
+}
+
