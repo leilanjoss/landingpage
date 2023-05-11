@@ -16,19 +16,15 @@ body {
     font-size: 18px;
 }
 
-ul {
-    margin: 0;
-    padding:0;
+
+.menu {
+    display: inline-block; /* Get all images to show in a row */
+    width: 100%;            /* Show 4 logos per row */
+    text-align: center;    /* Centre align the images */
+
 }
- 
-li {
-    list-style: none; 
-    margin: 10px;
-    display: inline;
-}
-li a {
-    padding: 5px 10px; 
-    margin: 0px;;
+
+.menu a {
     border: 10px solid var(--color-primary); 
     background: var(--color-primary);
     text-decoration: none;
@@ -37,16 +33,13 @@ li a {
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
+    line-height: 300%;
 }
-li a:hover {
+.menu a:hover {
     background: #CCC;
     color: #7789b1; 
     border-color: #7789b1;
-}
 
-
-p {
-    margin-bottom: 20px;
 }
 
 .container { /*CENTRALIZANDO A PAGINA */
@@ -203,4 +196,3 @@ nav{
     padding: 10px;
     gap: 20px;
 }
-
